@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+html,body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    display: inline;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    
+    "Sidebar Header"
+    "Sidebar Main"
+    "Footer Footer";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: rosybrown;
+    grid-area: Header;
+}
+
+footer {
+    background-color: aquamarine;
+    grid-area: Footer;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+
+.main-container {
+    background-color: burlywood;
+    grid-area: Main;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+    "Middle Ann"
+    "Middle Trend";
+
+}
+
+.middle {
+    background-color: #00e832;
+    grid-area: Middle;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.announcement-item {
+    background-color: blueviolet;
+    grid-area: Ann;
+}
+
+.trending-item {
+    background-color: tomato;
+    grid-area: Trend;
+}
+
+.sidebar-container {
+    background-color: cyan;
+    grid-area: Sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 4vmin;
+    font-weight:900;
+}
+
+.sidebar-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vmin;
+    margin-left: 4vmin;
+}
+
+.sidebar-item3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vmin;
+    margin-left: 4vmin;
+}
+
+.icons {
+    margin-right: 1vmin;
+    width: 2.3vmin;
+}
+
+.all-icons {
+    width: 3.2vmin;
+}
+
+.avis {
+    width: 8vmin;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.avi {
+    width: 7vmin;
+    height: auto;
+    background-color: yellow;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.bigger-avi {
+    width: 10vmin;
+    height: auto;
+    background-color: yellow;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
