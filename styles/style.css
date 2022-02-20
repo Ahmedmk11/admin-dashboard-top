@@ -46,6 +46,7 @@ header {
     grid-template-rows: 1fr 1fr;
     position: sticky;
     top: 0;
+    box-shadow: 5px 1px 6px black;
 }
 
 footer {
@@ -197,6 +198,7 @@ hr {
     flex:1;
     margin-top: 30px;
     margin-right: 10px;
+    box-shadow: 6px 1px 5px black;
 }
 
 .announcement-item .par {
@@ -214,7 +216,7 @@ hr {
     background-color: tomato;
     grid-area: Trend;
     margin-right: 10px;
-
+    box-shadow: 6px 1px 5px black;
     background-color: #FFF;
     padding: 20px;
     height: fit-content;
@@ -355,6 +357,7 @@ hr {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     border-left: 7px solid #f0b429;
+    box-shadow: 8px 1px 8px black;
 }
 
 .main-paragraph {
